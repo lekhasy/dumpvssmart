@@ -21,7 +21,7 @@ namespace key
                 var tenSuccess = true;
                 var zeroSuccess = true;
 
-                // loop through 100 question
+                // loop through 10 question
                 for (int i = 0; i < 10; i++)
                 {
                     var correctValue = r.Next(1, 5);

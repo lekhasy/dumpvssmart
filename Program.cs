@@ -25,10 +25,10 @@ namespace key
                 for (int i = 0; i < 10; i++)
                 {
                     var correctValue = r.Next(1, 5);
-                    // two dump: 624983/1
+                    // two dump: 62498.3/1
                     var choosenTenValue = r.Next(1, 5);
 
-                    // one smart: 1461 / 1
+                    // one smart: 146.1 / 1
                     if (i < 5) choosenTenValue = correctValue;
                     if (i < 8) choosenTenValue = (new int[] { correctValue, 5 })[r.Next(0, 2)];
                     var choosenZeroValue = r.Next(1, 5);
